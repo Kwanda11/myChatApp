@@ -1,11 +1,11 @@
 name: Java CI with Maven 
 on: 
 push: 
-branches: - main - Part2-SendMessages 
+branches: - main
+
 pull_request: 
 branches: - main 
- 
-jobs: 
+ jobs: 
   build: 
     runs-on: ubuntu-latest 
  
